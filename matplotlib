@@ -1,0 +1,6 @@
+import numpy as np
+get_ipython().run_line_magic('matplotlib', 'inline')
+
+%matplotlib inline
+import matplotlib.pyplot as plt
+plt.plot(np.random.randn(50).cumsum())
